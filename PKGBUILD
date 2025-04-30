@@ -1,10 +1,9 @@
 # Maintainer:	       EndlessEden <endlesseden@users.noreply.github.com>
-# Contributor:         cephian
-# Contributor:         glitsj16         
-# Previous Maintainer: Sebastiaan Lokhorst <sebastiaanlokhorst@gmail.com>
-# Contributor: Tom Gundersen <teg@jklm.no>
-# Contributor: Ionut Biru <ibiru@archlinux.org>
-# Contributor: Jackson Abascal <jacksonabascal@gmail.com>
+# Previous Maintainer: Sebastiaan Lokhorst <sebastiaanlokhorst@gmail.com> (lonaowna)
+# Contributor:         Helle Vaanzinn <> (glitsj16)
+# Contributor: 	       Tom Gundersen <teg@jklm.no>
+# Contributor:         Ionut Biru <ibiru@archlinux.org>
+# Contributor:         Jackson Abascal <jacksonabascal@gmail.com> (cephian)
 
 _pkgbase=transmission
 _pkgname=transmission-cli
