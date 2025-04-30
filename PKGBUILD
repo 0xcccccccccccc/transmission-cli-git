@@ -1,4 +1,7 @@
-# Maintainer: Sebastiaan Lokhorst <sebastiaanlokhorst@gmail.com>
+# Maintainer:	       EndlessEden <endlesseden@users.noreply.github.com>
+# Contributor:         cephian
+# Contributor:         glitsj16         
+# Previous Maintainer: Sebastiaan Lokhorst <sebastiaanlokhorst@gmail.com>
 # Contributor: Tom Gundersen <teg@jklm.no>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Jackson Abascal <jacksonabascal@gmail.com>
@@ -6,8 +9,8 @@
 _pkgbase=transmission
 _pkgname=transmission-cli
 pkgname=transmission-cli-git
-pkgver=4.0.3.r546.g52d1c1f34
-pkgrel=5
+pkgver=4.1.0.beta.2.r0.gac5c9e082
+pkgrel=1
 arch=(x86_64 armv7h)
 url="https://www.transmissionbt.com/"
 license=(GPL-2.0-or-later)
