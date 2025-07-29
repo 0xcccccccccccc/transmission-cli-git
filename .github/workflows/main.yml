@@ -20,9 +20,5 @@ jobs:
         uses: ncipollo/release-action@v1.13.0
         with:
           artifacts: "./*/*.zst"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          skipIfReleaseExists: false
-          replacesArtifacts: true
-          allowUpdates: true
     
               
