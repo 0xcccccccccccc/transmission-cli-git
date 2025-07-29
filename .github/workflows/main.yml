@@ -14,4 +14,4 @@ jobs:
       - name: Build and deploy to AUR
         uses: DuckSoft/build-aur-action@v1.1
         with:
-          repo-name: transmission-cli-git
+          repo-name: transmission-cli-beta
