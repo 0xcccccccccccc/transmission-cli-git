@@ -1,8 +1,8 @@
 name: Build and Deploy to AUR
 on:
   push:
-    branches:
-      - master  # 触发分支，按需修改
+    tags:
+      - v*
 
 jobs:
   build-aur-package:
