@@ -1,7 +1,17 @@
-name: GitHub Actions Demo
-on: [push]
+name: Build and Deploy to AUR
+on:
+  push:
+    branches:
+      - main  # 触发分支，按需修改
+
 jobs:
-  Build:
-    uses: DuckSoft/build-aur-action@master
-    with:
-      repo-name: transmission-cli-git
+  build-aur-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build and deploy to AUR
+        uses: DuckSoft/build-aur-action@v1.1
+        with:
+          repo-name: transmission-cli-git
