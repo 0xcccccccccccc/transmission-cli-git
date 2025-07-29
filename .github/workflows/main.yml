@@ -15,3 +15,15 @@ jobs:
         uses: DuckSoft/build-aur-action@v1.1
         with:
           repo-name: transmission-cli-beta
+
+      - name: GitHub Push        
+        uses: ncipollo/release-action@v1.13.0
+        with:
+          artifacts: "./*/*.zst"
+          tag: ${{ env.tag }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          skipIfReleaseExists: false
+          replacesArtifacts: true
+          allowUpdates: true
+    
+              
