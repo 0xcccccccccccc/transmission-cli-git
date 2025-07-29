@@ -2,7 +2,7 @@ name: Build and Deploy to AUR
 on:
   push:
     branches:
-      - main  # 触发分支，按需修改
+      - master  # 触发分支，按需修改
 
 jobs:
   build-aur-package:
