@@ -16,7 +16,7 @@ jobs:
         uses: vufa/arch-makepkg-action@master
         with:
           repos: >
-            exampleRepo=https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+            archlinux=https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
           packages: >
             transmission-cli-git
           scripts: "makepkg"
