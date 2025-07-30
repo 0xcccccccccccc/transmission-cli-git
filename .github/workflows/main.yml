@@ -16,10 +16,6 @@ jobs:
         with:
           repo-name: transmission-cli-beta
 
-      - name: GitHub Push        
-        uses: ncipollo/release-action@v1.13.0
-        with:
-          artifacts: "./*/*.zst"
       - name: Upload to Release Action
         uses: actions/upload-artifact@v4.6.2
         with:
