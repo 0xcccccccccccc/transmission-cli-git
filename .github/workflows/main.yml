@@ -11,10 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build and deploy to AUR
-        uses: DuckSoft/build-aur-action@v1.1
+      - name: Publish AUR package
+        uses: KSXGitHub/github-actions-deploy-aur@v4.1.1
         with:
-          repo-name: transmission3-cli
+          pkgname: transmission-cli-git
+          pkgbuild: ./PKGBUILD
 
       - name: Upload to Release Action
         uses: actions/upload-artifact@v4.6.2
